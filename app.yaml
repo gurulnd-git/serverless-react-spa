@@ -1,0 +1,9 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+handlers:
+- url: /
+  static_files: insights_app/index.html
+  upload: insights_app/index.html
+- url: /
+  static_dir: insights_app
